@@ -1,0 +1,5 @@
+name: BossBar
+author: Totom3
+description: An API for simulating boss bars
+version: 1.0
+main: io.github.totom3.bossbar.BarAPI
