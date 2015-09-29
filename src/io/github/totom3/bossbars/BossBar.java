@@ -303,8 +303,7 @@ public class BossBar {
 
     private DataWatcher makeWatcher() {
 	DataWatcher dataWatcher = new DataWatcher(bossEntity);
-	// FIXME: uncomment next line
-	//dataWatcher.a(0, (byte) 32); // invisible
+	dataWatcher.a(0, (byte) 32); // invisible
 	dataWatcher.a(6, getHealth()); // health
 	//dataWatcher.a(7, 0);
 	//dataWatcher.a(8, (byte) 0);
